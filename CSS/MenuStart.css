@@ -1,0 +1,98 @@
+html {
+  overflow-x : hidden;
+  overflow-y : hidden;
+}
+
+button:focus {
+  outline : 0;
+}
+
+#StartBtn,
+body {
+  background-repeat   : no-repeat;
+  background-position : center center;
+}
+
+body {
+  display               : inline-flex;
+  width                 : auto;
+  height                : auto;
+  margin                : 0;
+  padding-top           : 10px;
+  background-image      : url(../resources/fundo.png);
+  background-color      : #fff;
+  background-attachment : fixed;
+  background-size       : auto;
+}
+
+img,
+nav {
+  position : absolute;
+  top      : 0;
+  right    : 0;
+  bottom   : 80%;
+  left     : 0;
+  width    : 30%;
+  margin   : auto;
+}
+
+nav button {
+  position         : relative;
+  width            : 100%;
+  height           : 12%;
+  margin-top       : 50%;
+  border           : 0;
+  background-color : Transparent;
+  transition       : background-image .5s;
+  cursor           : pointer;
+}
+
+nav {
+  display : inline-block;
+  top     : 60%;
+  bottom  : 0;
+  width   : 20%;
+  height  : 100%;
+}
+
+#StartBtn {
+  top              : 2px;
+  border           : 0;
+  background-image : url(../resources/IMAGES/BUTTONS/StartBtn.png);
+  background-size  : 100%;
+}
+
+#StartBtn:hover {
+  background-image : url(../resources/IMAGES/BUTTONS/StartBtn1.png);
+  cursor           : pointer;
+}
+
+.personagens img {
+  position : absolute;
+  width    : 600px;
+  height   : 600px;
+}
+
+#bom1,
+#bom2 {
+  top  : 500px;
+  left : -700px;
+}
+
+#bom1 {
+  top : 800px;
+}
+
+#mau1,
+#mau3 {
+  top  : 700px;
+  left : 650px;
+}
+
+#mau3 {
+  top : 500px;
+}
+
+#label {
+  top : 800px;
+}

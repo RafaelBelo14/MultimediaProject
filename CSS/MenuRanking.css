@@ -1,0 +1,169 @@
+html {
+  overflow-x : hidden;
+  overflow-y : hidden;
+}
+
+button:focus {
+  outline : 0;
+}
+
+body {
+  display               : inline-flex;
+  width                 : 1200px;
+  width                 : auto;
+  height                : auto;
+  margin                : 0;
+  padding-top           : 2px;
+  background-image      : url("../resources/fundo.png");
+  background-color      : white;
+  background-color      : Transparent;
+  background-repeat     : no-repeat;
+  background-attachment : fixed;
+  background-position   : center center;
+  background-size       : auto;
+}
+
+#titulo {
+  position : absolute;
+  top      : 0%;
+  right    : 0%;
+  bottom   : 80%;
+  left     : 0%;
+  width    : 30%;
+  margin   : auto;
+}
+
+#tabela {
+  position : relative;
+  left     : 2%;
+  width    : 1150px;
+  height   : 630px;
+}
+
+h1 {
+  position  : absolute;
+  left      : 340px;
+  margin    : 0px;
+  color     : black;
+  font-size : 20px;
+}
+
+.delete button {
+  position            : absolute;
+  right               : 150px;
+  width               : 90px;
+  height              : 40px;
+  border-color        : transparent;
+  background-image    : url("../resources/IMAGES/BUTTONS/DeleteBtn2.png");
+  background-color    : Transparent;
+  background-repeat   : no-repeat;
+  background-position : center center;
+  background-size     : 100%;
+}
+
+.tabela h1 {
+  position : absolute;
+  left     : 170px;
+}
+
+#first {
+  top : 150px;
+}
+
+#b1 {
+  top : 140px;
+}
+
+#second {
+  top : 210px;
+}
+
+#b2 {
+  top : 198px;
+}
+
+#third {
+  top : 270px;
+}
+
+#b3 {
+  top : 258px;
+}
+
+#fourth {
+  top : 325px;
+}
+
+#b4 {
+  top : 318px;
+}
+
+#fifth {
+  top : 385px;
+}
+
+#b5 {
+  top : 375px;
+}
+
+#sixth {
+  top : 445px;
+}
+
+#b6 {
+  top : 433px;
+}
+
+#seventh {
+  top : 505px;
+}
+
+#b7 {
+  top : 492px;
+}
+
+#eighth {
+  top : 560px;
+}
+
+#b8 {
+  top : 550px;
+}
+
+#ExitBtn {
+  position            : absolute;
+  top                 : 580px;
+  left                : 20px;
+  width               : 80px;
+  height              : 80px;
+  border-color        : transparent;
+  background-image    : url("../resources/IMAGES/BUTTONS/ExitBtn.png");
+  background-color    : transparent;
+  background-repeat   : no-repeat;
+  background-position : center center;
+  background-size     : 80px;
+  transition          : background-color 1s;
+}
+
+#ExitBtn:hover {
+  background-image : url("../resources/IMAGES/BUTTONS/ExitBtn1.png");
+  cursor           : pointer;
+}
+
+.gameMusicControl {
+  position            : absolute;
+  top                 : 10px;
+  left                : 1080px;
+  width               : 90px;
+  height              : 70px;
+  border-color        : transparent;
+  background-image    : url('../resources/IMAGES/BUTTONS/volumeWith.png');
+  background-color    : Transparent;
+  background-repeat   : no-repeat;
+  background-position : center center;
+  background-size     : 80%;
+}
+
+.gameMusicControl:hover {
+  cursor : pointer;
+}

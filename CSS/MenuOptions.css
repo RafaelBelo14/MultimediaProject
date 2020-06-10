@@ -1,0 +1,184 @@
+html {
+  overflow-x : hidden;
+  overflow-y : hidden;
+}
+
+button:focus {
+  outline : 0;
+}
+
+.gameMusicUp,
+.soundEfectsUp,
+body {
+  background-repeat   : no-repeat;
+  background-position : center center;
+}
+
+body {
+  display               : inline-flex;
+  width                 : auto;
+  height                : auto;
+  margin                : 0;
+  padding-top           : 2px;
+  background-image      : url(../resources/fundo.png);
+  background-color      : #fff;
+  background-attachment : fixed;
+  background-size       : auto;
+}
+
+#titulo {
+  position : absolute;
+  top      : 0;
+  right    : 0;
+  bottom   : 80%;
+  left     : 0;
+  width    : 30%;
+  margin   : auto;
+}
+
+.gameMusicUp,
+.soundEfectsUp {
+  position         : absolute;
+  left             : 890px;
+  width            : 80px;
+  height           : 70px;
+  border-color     : transparent;
+  background-image : url(../resources/IMAGES/BUTTONS/SoundUp.png);
+  background-color : Transparent;
+}
+
+.soundEfectsUp {
+  top : 215px;
+}
+
+.gameMusicUp {
+  top : 405px;
+}
+
+.soundUp {
+  transition : background-image .5s;
+}
+
+.soundUp:hover {
+  background-image : url(../resources/IMAGES/BUTTONS/SoundUp1.png);
+  cursor           : pointer;
+}
+
+.gameMusicDown,
+.soundEfectsDown {
+  position            : absolute;
+  left                : 535px;
+  width               : 80px;
+  height              : 70px;
+  border-color        : transparent;
+  background-image    : url(../resources/IMAGES/BUTTONS/SoundDown.png);
+  background-color    : Transparent;
+  background-repeat   : no-repeat;
+  background-position : center center;
+}
+
+.soundEfectsDown {
+  top : 215px;
+}
+
+.gameMusicDown {
+  top : 405px;
+}
+
+.soundDown {
+  transition : background-image .5s;
+}
+
+.soundDown:hover {
+  background-image : url(../resources/IMAGES/BUTTONS/SoundDown1.png);
+  cursor           : pointer;
+}
+
+.soundEfectsControl {
+  position         : absolute;
+  top              : 210px;
+  left             : 995px;
+  width            : 100px;
+  height           : 90px;
+  border-color     : transparent;
+  background-image : url(../resources/IMAGES/BUTTONS/volumeWith.png);
+  background-color : Transparent;
+}
+
+#ExitBtn,
+#sliderGameMusic,
+.gameMusicControl,
+.soundEfectsControl {
+  background-repeat   : no-repeat;
+  background-position : center center;
+}
+
+.gameMusicControl {
+  position         : absolute;
+  top              : 400px;
+  left             : 995px;
+  width            : 100px;
+  height           : 90px;
+  border-color     : transparent;
+  background-image : url(../resources/IMAGES/BUTTONS/volumeWith.png);
+  background-color : Transparent;
+}
+
+.soundControl:hover {
+  cursor : pointer;
+}
+
+#ExitBtn {
+  position : absolute;
+}
+
+#sliderGameMusic,
+#sliderSoundEfects {
+  position : absolute;
+  left     : 605px;
+  width    : 180px;
+  height   : 50px;
+}
+
+#sliderSoundEfects {
+  top : 205px;
+}
+
+#sliderGameMusic {
+  top : 395px;
+}
+
+#ExitBtn {
+  top              : 580px;
+  left             : 20px;
+  width            : 80px;
+  height           : 80px;
+  border-color     : transparent;
+  background-image : url(../resources/IMAGES/BUTTONS/ExitBtn.png);
+  background-color : transparent;
+  background-size  : 80px;
+  transition       : background-color 1s;
+}
+
+#ExitBtn:hover {
+  background-image : url(../resources/IMAGES/BUTTONS/ExitBtn1.png);
+  cursor           : pointer;
+}
+
+#effectsLabel,
+#soundLabel {
+  position : absolute;
+  height   : 80px;
+}
+
+#soundLabel {
+  top   : 59%;
+  left  : 13%;
+  width : 350px;
+}
+
+#effectsLabel {
+  top   : 32%;
+  left  : 10%;
+  width : 384px;
+}

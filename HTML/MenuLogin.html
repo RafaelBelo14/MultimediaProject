@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../CSS/MenuLogin.css">
+	<script type="text/javascript" src="../JS/MenuLogin.js"></script>
+	<script type="text/javascript" src="../JS/Slots.js"></script>
+</head>
+	<body>
+		<div class="figuras">
+			<img id = "figure2" src= "../resources/IMAGES/PERSONAGENS/bom1_pose.gif">
+			<img id = "figure1" src= "../resources/IMAGES/PERSONAGENS/bom2_pose.gif">
+		</div>
+		<button id = "gameMusicControl" class="soundControl gameMusicControl" ></button>
+		<img src="../resources/Titulo.png">
+
+		<form >
+			<input id="userInput" type="text" name="firstname" placeholder=" WRITE YOUR USERNAME..." required minlength="1" maxlength="18">
+		</form>
+		<button id="StartGameBtn"></button>
+		<button id="ExitBtn"></button>
+		<div id="popupStartButton">
+			<div id="popup_contentStartButton">
+				<h1>Do you want to save this user?</h1>
+				<button  id="Yes" class="QuestionsBtn"></button>
+                <button id= 'No' class="QuestionsBtn"></button>
+			</div>
+		</div>
+	</body>
+</html>

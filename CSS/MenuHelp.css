@@ -1,0 +1,78 @@
+html {
+  overflow-x : hidden;
+  overflow-y : hidden;
+}
+
+button:focus {
+  outline : 0;
+}
+
+body {
+  display               : inline-flex;
+  width                 : auto;
+  height                : auto;
+  margin                : 0;
+  padding-top           : 2px;
+  background-image      : url(../resources/fundo.png);
+  background-color      : #fff;
+  background-repeat     : no-repeat;
+  background-attachment : fixed;
+  background-position   : center center;
+  background-size       : auto;
+}
+
+#instrucoes,
+#titulo {
+  position : absolute;
+  top      : 0;
+  right    : 0;
+  bottom   : 80%;
+  left     : 0;
+  width    : 30%;
+  margin   : auto;
+}
+
+#instrucoes {
+  top    : 10%;
+  bottom : 0;
+  width  : 1000px;
+  height : 450px;
+}
+
+#ExitBtn,
+.gameMusicControl {
+  position            : absolute;
+  border-color        : transparent;
+  background-repeat   : no-repeat;
+  background-position : center center;
+}
+
+#ExitBtn {
+  top              : 580px;
+  left             : 20px;
+  width            : 80px;
+  height           : 80px;
+  background-image : url(../resources/IMAGES/BUTTONS/ExitBtn.png);
+  background-color : transparent;
+  background-size  : 80px;
+  transition       : background-color 1s;
+}
+
+#ExitBtn:hover {
+  background-image : url(../resources/IMAGES/BUTTONS/ExitBtn1.png);
+  cursor           : pointer;
+}
+
+.gameMusicControl {
+  top              : 10px;
+  left             : 1080px;
+  width            : 90px;
+  height           : 70px;
+  background-image : url(../resources/IMAGES/BUTTONS/volumeWith.png);
+  background-color : Transparent;
+  background-size  : 80%;
+}
+
+.gameMusicControl:hover {
+  cursor : pointer;
+}

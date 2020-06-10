@@ -1,0 +1,346 @@
+html {
+  overflow-x : hidden;
+  overflow-y : hidden;
+}
+
+button:focus {
+  outline : 0;
+}
+
+body {
+  display               : inline-flex;
+  width                 : auto;
+  height                : auto;
+  margin                : 0;
+  padding-top           : 10px;
+  background-image      : url("../resources/fundo.png");
+  background-color      : Transparent;
+  background-repeat     : no-repeat;
+  background-attachment : fixed;
+  background-position   : center center;
+  background-size       : auto;
+}
+
+#titulo {
+  position : absolute;
+  top      : 0%;
+  right    : 0%;
+  bottom   : 80%;
+  left     : 0%;
+  width    : 30%;
+  margin   : auto;
+}
+
+nav button {
+  position         : relative;
+  width            : 100%;
+  height           : 12%;
+  border           : none;
+  background-color : Transparent;
+  transition       : background-image 0.5s;
+  cursor           : pointer;
+}
+
+nav {
+  display  : inline-block;
+  position : absolute;
+  top      : 45%;
+  right    : 0%;
+  bottom   : 0%;
+  left     : 0%;
+  width    : 20%;
+  height   : 100%;
+  margin   : auto;
+}
+
+#ExitBtn {
+  position            : absolute;
+  top                 : 580px;
+  left                : 20px;
+  width               : 80px;
+  height              : 80px;
+  border-color        : transparent;
+  background-image    : url("../resources/IMAGES/BUTTONS/ExitBtn.png");
+  background-color    : transparent;
+  background-repeat   : no-repeat;
+  background-position : center center;
+  background-size     : 80px;
+  transition          : background-color 0.5s;
+}
+
+#ExitBtn:hover {
+  background-image : url("../resources/IMAGES/BUTTONS/ExitBtn1.png");
+  cursor           : pointer;
+}
+
+#StoryBtn {
+  top                 : 2px;
+  border              : 0;
+  background-image    : url("../resources/IMAGES/BUTTONS/StoryBtn.png");
+  background-repeat   : no-repeat;
+  background-position : center center;
+  background-size     : 100%;
+}
+
+#StoryBtn:hover {
+  background-image : url("../resources/IMAGES/BUTTONS/StoryBtn1.png");
+}
+
+#MultiBtn {
+  top                 : 2px;
+  border              : 0;
+  background-image    : url("../resources/IMAGES/BUTTONS/1vs1Btn.png");
+  background-repeat   : no-repeat;
+  background-position : center center;
+  background-size     : 100%;
+}
+
+#MultiBtn:hover {
+  background-image : url("../resources/IMAGES/BUTTONS/1vs1Btn1.png");
+}
+
+#RankingBtn {
+  top                 : 2px;
+  border              : 0;
+  background-image    : url("../resources/IMAGES/BUTTONS/RankingBtn.png");
+  background-repeat   : no-repeat;
+  background-position : center center;
+  background-size     : 100%;
+}
+
+#RankingBtn:hover {
+  background-image : url("../resources/IMAGES/BUTTONS/RankingBtn1.png");
+}
+
+#OptionsBtn {
+  top                 : 2px;
+  border              : 0;
+  background-image    : url("../resources/IMAGES/BUTTONS/OptionsBtn.png");
+  background-repeat   : no-repeat;
+  background-position : center center;
+  background-size     : 100%;
+}
+
+#OptionsBtn:hover {
+  background-image : url("../resources/IMAGES/BUTTONS/OptionsBtn1.png");
+}
+
+#HelpBtn {
+  top                 : 2px;
+  border              : 0;
+  background-image    : url("../resources/IMAGES/BUTTONS/HelpBtn.png");
+  background-repeat   : no-repeat;
+  background-position : center center;
+  background-size     : 100%;
+}
+
+#HelpBtn:hover {
+  background-image : url("../resources/IMAGES/BUTTONS/HelpBtn1.png");
+}
+
+#CreditsBtn {
+  top                 : 2px;
+  border              : 0;
+  background-image    : url("../resources/IMAGES/BUTTONS/CreditsBtn.png");
+  background-repeat   : no-repeat;
+  background-position : center center;
+  background-size     : 100%;
+}
+
+#CreditsBtn:hover {
+  background-image : url("../resources/IMAGES/BUTTONS/CreditsBtn1.png");
+}
+
+.StartBtn {
+  display          : inline-block;
+  position         : relative;
+  width            : 250px;
+  height           : 150px;
+  margin           : 30px;
+  padding-top      : 10px;
+  color            : #FFF;
+  border-radius    : 5px;
+  background-color : rgba(51,68,85,0.6);
+  font-size        : 50px;
+  transition       : background-color 0.5s;
+  cursor           : pointer;
+}
+
+#LoginBtn {
+  border-color        : transparent;
+  background-image    : url("../resources/IMAGES/BUTTONS/NewBtn.png");
+  background-color    : transparent;
+  background-repeat   : no-repeat;
+  background-position : center center;
+  background-size     : 100%;
+}
+
+#LoadBtn {
+  border-color        : transparent;
+  background-image    : url("../resources/IMAGES/BUTTONS/LoadBtn.png");
+  background-color    : transparent;
+  background-repeat   : no-repeat;
+  background-position : center center;
+  background-size     : 100%;
+}
+
+#LoginBtn:hover {
+  background-image : url("../resources/IMAGES/BUTTONS/NewBtn1.png");
+}
+
+#LoadBtn:hover {
+  background-image : url("../resources/IMAGES/BUTTONS/LoadBtn1.png");
+}
+
+#YesBtn {
+  border-color        : transparent;
+  background-image    : url("../resources/IMAGES/BUTTONS/YesBtn.png");
+  background-color    : transparent;
+  background-repeat   : no-repeat;
+  background-position : center center;
+  background-size     : 100%;
+}
+
+#NoBtn {
+  border-color        : transparent;
+  background-image    : url("../resources/IMAGES/BUTTONS/NoBtn.png");
+  background-color    : transparent;
+  background-repeat   : no-repeat;
+  background-position : center center;
+  background-size     : 100%;
+}
+
+#YesBtn:hover {
+  background-image : url("../resources/IMAGES/BUTTONS/YesBtn1.png");
+}
+
+#NoBtn:hover {
+  background-image : url("../resources/IMAGES/BUTTONS/NoBtn1.png");
+}
+
+#popupStartButton {
+  display          : none;
+  position         : fixed;
+  top              : 0;
+  left             : 0;
+  width            : 100%;
+  height           : 100%;
+  padding-top      : 150px;
+  background-color : rgba(0,0,0,0.7);
+  cursor           : pointer;
+}
+
+#popup_contentStartButton {
+  width               : 700px;
+  height              : 290px;
+  margin              : auto;
+  padding-top         : 80px;
+  padding-left        : 60px;
+  border              : 3px solid #FFF;
+  background-color    : rgba(255,207,112, 0.7);
+  background-repeat   : no-repeat;
+  background-position : center center;
+  cursor              : initial;
+}
+
+#popupExitButton {
+  display          : none;
+  position         : fixed;
+  top              : 0;
+  left             : 0;
+  width            : 100%;
+  height           : 100%;
+  padding-top      : 150px;
+  background-color : rgba(0,0,0,0.7);
+  cursor           : pointer;
+}
+
+#popup_contentExitButton {
+  width               : 700px;
+  height              : 290px;
+  margin              : auto;
+  padding-top         : 80px;
+  padding-left        : 60px;
+  border              : 3px solid #FFF;
+  background-color    : rgba(255,207,112, 0.7);
+  background-repeat   : no-repeat;
+  background-position : center center;
+  cursor              : initial;
+}
+
+#texto {
+  position : relative;
+  top      : 0%;
+  right    : 0%;
+  bottom   : 0%;
+  left     : 2%;
+  color    : black;
+}
+
+.gameMusicControl {
+  position            : absolute;
+  top                 : 10px;
+  left                : 1080px;
+  width               : 90px;
+  height              : 70px;
+  border-color        : transparent;
+  background-image    : url('../resources/IMAGES/BUTTONS/volumeWith.png');
+  background-color    : Transparent;
+  background-repeat   : no-repeat;
+  background-position : center center;
+  background-size     : 80%;
+}
+
+.gameMusicControl:hover {
+  cursor : pointer;
+}
+
+#easterEgg {
+  position         : relative;
+  top              : 40px;
+  left             : 460px;
+  width            : 10px;
+  height           : 35px;
+  border-color     : transparent;
+  background-color : transparent;
+}
+
+#easterEggText {
+  display    : none;
+  position   : relative;
+  top        : 50px;
+  left       : 50px;
+  color      : black;
+  font-size  : 15px;
+  font-style : bold;
+}
+
+p {
+  margin-bottom : -15px;
+  text-align    : center;
+}
+
+#easterEggPhoto {
+  display  : none;
+  position : absolute;
+  top      : 130px;
+  left     : 80px;
+  width    : 220px;
+  height   : 20px;
+}
+
+#figure1 {
+  position : absolute;
+  top      : 100px;
+  left     : 650px;
+  width    : 600px;
+  height   : 600px;
+}
+
+#figure2 {
+  position : absolute;
+  top      : 100px;
+  right    : 660px;
+  width    : 600px;
+  height   : 600px;
+}

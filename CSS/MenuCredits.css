@@ -1,0 +1,109 @@
+html{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+button:focus {outline:0;}
+
+body{
+    width: 1200px;
+    display: inline-flex;
+    margin: 0;
+    padding-top: 2px;
+    width: auto;
+    height: auto;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    background-image: url("../resources/fundo.png");
+    background-attachment: fixed;
+    background-color: white;
+    background-size: auto;
+    background-position: center center;
+}
+
+#ExitBtn{
+    position: absolute;
+    left: 20px;
+    top: 580px;
+    background-image: url("../resources/IMAGES/BUTTONS/ExitBtn.png");
+    width: 80px;
+    height: 80px;
+    background-size: 80px;
+    border-color: transparent;
+    background-color: transparent;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: background-color 1s;
+}
+#ExitBtn:hover
+{
+    cursor: pointer;
+    background-image: url("../resources/IMAGES/BUTTONS/ExitBtn1.png");
+}
+
+.gameMusicControl{
+    position: absolute;
+    left: 1080px;
+    top: 10px;
+    background-color: Transparent;
+    border-color: transparent;
+    background-image: url('../resources/IMAGES/BUTTONS/volumeWith.png');
+    background-size: 80%;
+    width: 90px;
+    height: 70px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.gameMusicControl:hover{
+    cursor: pointer;
+}
+
+main
+{
+    background: transparent;
+}
+
+section {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 400px;
+  margin-left: -200px;
+  font: 300 30px/1 'Arial', sans-serif;
+  text-align: center;
+  color: #fff;
+  animation: 40s creditos linear infinite;
+}
+
+@keyframes creditos {
+    0% { top:  100%; }
+  100% { top: -300%; }
+}
+
+h1
+{
+    font: bold 20px Helvetica;
+    color:black;
+}
+p
+{
+    font: bold 16px Helvetica;
+    color:black;
+}
+img{
+    margin-left: -45%;
+}
+
+#design{
+    position: relative;
+    margin-left: -4%;
+}
+#development{
+    position: relative;
+    margin-left: -23%;
+}
+#icone{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin-left: 3%;
+}

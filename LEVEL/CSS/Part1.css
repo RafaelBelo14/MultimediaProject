@@ -1,0 +1,39 @@
+main
+{
+	background          : black;
+}
+
+video
+{
+    display             : none;
+    position            : absolute;
+    margin              : auto;
+    top                 : 50%;
+    bottom              : 50%;
+	width               : 1190px;
+	height              : 675px;
+}
+
+button
+{
+    border              : none;
+    position            : absolute;	
+    width               : 64px;
+    height              : 38px;
+    left                : 1105px;
+	top                 : 25px;
+    cursor              : pointer;
+    background-image    : url("../../resources/IMAGES/BUTTONS/skipBtn.png");
+    background-repeat   : no-repeat;
+	margin              : 0px;		
+    background-color    : transparent;
+}
+
+button:hover {
+    cursor              : pointer;
+    background-image    : url("../../resources/IMAGES/BUTTONS/skipBtn1.png");
+}
+
+button:focus {
+    outline             : 0;
+  }

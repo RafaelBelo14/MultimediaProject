@@ -1,0 +1,207 @@
+html {
+  overflow-x : hidden;
+  overflow-y : hidden;
+}
+
+button:focus {
+  outline : 0;
+}
+
+h1 {
+  position  : absolute;
+  left      : 340px;
+  margin    : 0px;
+  color     : white;
+  font-size : 40px;
+}
+
+form {
+  position : absolute;
+  top      : 68%;
+  right    : 50%;
+  bottom   : 50%;
+  left     : 29%;
+  margin   : auto;
+}
+
+#userInput {
+  width            : 500px;
+  height           : 40px;
+  border-radius    : 10px;
+  background-color : rgb(255,255, 255,0.8);
+}
+
+input[type="text"] {
+  color      : black;
+  font-size  : 30px;
+  font-style : bold;
+}
+
+body {
+  display               : inline-flex;
+  width                 : 1200px;
+  width                 : auto;
+  height                : auto;
+  margin                : 0;
+  padding-top           : 2px;
+  background-image      : url("../resources/fundo.png");
+  background-color      : Transparent;
+  background-repeat     : no-repeat;
+  background-attachment : fixed;
+  background-position   : center center;
+  background-size       : auto;
+}
+
+img {
+  position : absolute;
+  top      : 0%;
+  right    : 0%;
+  bottom   : 80%;
+  left     : 0%;
+  width    : 30%;
+  margin   : auto;
+}
+
+#StartGameBtn {
+  position            : absolute;
+  bottom              : 5%;
+  left                : 37.5%;
+  width               : 300px;
+  height              : 130px;
+  border              : none;
+  background-image    : url("../resources/IMAGES/BUTTONS/StartBtn.png");
+  background-color    : Transparent;
+  background-repeat   : no-repeat;
+  background-position : center center;
+  background-size     : 100%;
+  transition          : background-image 0.5s;
+}
+
+#StartGameBtn:hover {
+  background-image : url("../resources/IMAGES/BUTTONS/StartBtn1.png");
+  cursor           : pointer;
+}
+
+#ExitBtn {
+  position            : absolute;
+  top                 : 580px;
+  left                : 20px;
+  width               : 80px;
+  height              : 80px;
+  border-color        : transparent;
+  background-image    : url("../resources/IMAGES/BUTTONS/ExitBtn.png");
+  background-color    : transparent;
+  background-repeat   : no-repeat;
+  background-position : center center;
+  background-size     : 80px;
+  transition          : background-color 1s;
+}
+
+#ExitBtn:hover {
+  background-image : url("../resources/IMAGES/BUTTONS/ExitBtn1.png");
+  cursor           : pointer;
+}
+
+#popupStartButton {
+  display          : none;
+  position         : fixed;
+  top              : 0;
+  left             : 0;
+  width            : 100%;
+  height           : 100%;
+  padding-top      : 150px;
+  background-color : rgba(0,0,0,0.6);
+  cursor           : pointer;
+}
+
+#popup_contentStartButton {
+  width               : 700px;
+  height              : 290px;
+  margin              : auto;
+  padding-top         : 80px;
+  padding-left        : 60px;
+  border              : 2px solid #FFF;
+  background-color    : rgbA(255,207,112, 0.8);
+  background-repeat   : no-repeat;
+  background-position : center center;
+  background-size     : 100%;
+  cursor              : initial;
+}
+
+.QuestionsBtn {
+  display          : inline-block;
+  position         : absolute;
+  top              : 300px;
+  width            : 250px;
+  height           : 150px;
+  margin           : 30px;
+  color            : #FFF;
+  border-radius    : 5px;
+  background-color : rgba(51,68,85,0.6);
+  font-size        : 50px;
+  transition       : background-color 0.5s;
+  cursor           : pointer;
+}
+
+#Yes {
+  border-color        : transparent;
+  background-image    : url("../resources/IMAGES/BUTTONS/YesBtn.png");
+  background-color    : transparent;
+  background-repeat   : no-repeat;
+  background-position : center center;
+  background-size     : 100%;
+}
+
+#Yes:hover {
+  background-image : url("../resources/IMAGES/BUTTONS/YesBtn1.png");
+  cursor           : pointer;
+}
+
+#No {
+  right               : 280px;
+  border-color        : transparent;
+  background-image    : url("../resources/IMAGES/BUTTONS/NoBtn.png");
+  background-color    : transparent;
+  background-repeat   : no-repeat;
+  background-position : center center;
+  background-size     : 100%;
+}
+
+#No:hover {
+  background-image : url("../resources/IMAGES/BUTTONS/NoBtn1.png");
+  cursor           : pointer;
+}
+
+.gameMusicControl {
+  position            : absolute;
+  top                 : 10px;
+  left                : 1080px;
+  width               : 90px;
+  height              : 70px;
+  border-color        : transparent;
+  background-image    : url('../resources/IMAGES/BUTTONS/volumeWith.png');
+  background-color    : Transparent;
+  background-repeat   : no-repeat;
+  background-position : center center;
+  background-size     : 80%;
+}
+
+.gameMusicControl:hover {
+  cursor : pointer;
+}
+
+.figuras img {
+  position : absolute;
+  width    : 500px;
+  height   : 500px;
+}
+
+#figure1 {
+  top   : 430px;
+  right : 200px;
+}
+
+#figure2 {
+  top  : 520px;
+  left : 200px;
+}

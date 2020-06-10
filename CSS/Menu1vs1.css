@@ -1,0 +1,435 @@
+html {
+  overflow-x : hidden;
+  overflow-y : hidden;
+}
+
+body {
+  display               : inline-flex;
+  width                 : auto;
+  height                : auto;
+  margin                : 0;
+  padding-top           : 10px;
+  background-image      : url("../resources/fundo.png");
+  background-color      : Transparent;
+  background-color      : white;
+  background-repeat     : no-repeat;
+  background-attachment : fixed;
+  background-position   : center center;
+  background-size       : auto;
+}
+
+img {
+  position : absolute;
+  top      : 0%;
+  right    : 0%;
+  bottom   : 80%;
+  left     : 0%;
+  width    : 30%;
+  margin   : auto;
+}
+
+nav button {
+  position         : relative;
+  width            : 100%;
+  height           : 12%;
+  border           : none;
+  background-color : Transparent;
+  transition       : background-image 0.5s;
+  cursor           : pointer;
+}
+
+nav {
+  display  : inline-block;
+  position : absolute;
+  right    : 0%;
+  bottom   : 0%;
+  left     : 0%;
+  width    : 20%;
+  height   : 40%;
+  margin   : auto;
+}
+
+nav :focus{
+  outline             : 0px;
+}
+
+#StartBtn {
+  position            : absolute;
+  top                 : 335px;
+  left                : 530px;
+  width               : 150px;
+  height              : 75px;
+  border              : 0;
+  background-image    : url("../resources/IMAGES/BUTTONS/StartBtn.png");
+  background-color    : transparent;
+  background-repeat   : no-repeat;
+  background-position : center center;
+  background-size     : 100%;
+}
+
+#StartBtn:hover {
+  background-image    : url("../resources/IMAGES/BUTTONS/StartBtn1.png");
+  cursor              : pointer;
+}
+
+#StartBtn:focus {
+  outline             : 0px;
+}
+
+#ExitBtn {
+  position            : absolute;
+  top                 : 580px;
+  left                : 20px;
+  width               : 80px;
+  height              : 80px;
+  border-color        : transparent;
+  background-image    : url("../resources/IMAGES/BUTTONS/ExitBtn.png");
+  background-color    : transparent;
+  background-repeat   : no-repeat;
+  background-position : center center;
+  background-size     : 80px;
+  transition          : background-color 0.5s;
+}
+
+#ExitBtn:hover {
+  background-image    : url("../resources/IMAGES/BUTTONS/ExitBtn1.png");
+  cursor              : pointer;
+}
+
+#ExitBtn:focus {
+  outline             : 0px;
+}
+
+.gameMusicControl {
+  position            : absolute;
+  top                 : 10px;
+  left                : 1080px;
+  width               : 90px;
+  height              : 70px;
+  border-color        : transparent;
+  background-image    : url('../resources/IMAGES/BUTTONS/volumeWith.png');
+  background-color    : Transparent;
+  background-repeat   : no-repeat;
+  background-position : center center;
+  background-size     : 90%;
+}
+
+.gameMusicControl:hover {
+  cursor              : pointer;
+}
+
+#arrow_left_1 {
+  position            : relative;
+  top                 : 83px;
+  right               : 275px;
+  width               : 90px;
+  height              : 70px;
+  border-color        : transparent;
+  background-image    : url('../resources/IMAGES/BUTTONS/ArrowLeft.png');
+  background-color    : Transparent;
+  background-repeat   : no-repeat;
+  background-position : center center;
+  background-size     : 90%;
+}
+
+#arrow_left_1:hover {
+  background-image    : url("../resources/IMAGES/BUTTONS/ArrowLeft1.png");
+}
+
+#arrow_left_2 {
+  position            : relative;
+  top                 : 83px;
+  left                : 140px;
+  width               : 90px;
+  height              : 70px;
+  border-color        : transparent;
+  background-image    : url('../resources/IMAGES/BUTTONS/ArrowLeft.png');
+  background-color    : Transparent;
+  background-repeat   : no-repeat;
+  background-position : center center;
+  background-size     : 90%;
+}
+
+#arrow_left_2:hover {
+  background-image : url("../resources/IMAGES/BUTTONS/ArrowLeft1.png");
+}
+
+#arrow_right_1 {
+  position            : relative;
+  top                 : 10px;
+  right               : 75px;
+  width               : 90px;
+  height              : 70px;
+  border-color        : transparent;
+  background-image    : url('../resources/IMAGES/BUTTONS/ArrowRight.png');
+  background-color    : Transparent;
+  background-repeat   : no-repeat;
+  background-position : center center;
+  background-size     : 90%;
+}
+
+#arrow_right_1:hover {
+  background-image : url("../resources/IMAGES/BUTTONS/ArrowRight1.png");
+}
+
+#arrow_right_2 {
+  position            : relative;
+  top                 : 10px;
+  left                : 350px;
+  width               : 90px;
+  height              : 70px;
+  border-color        : transparent;
+  background-image    : url('../resources/IMAGES/BUTTONS/ArrowRight.png');
+  background-color    : Transparent;
+  background-repeat   : no-repeat;
+  background-position : center center;
+  background-size     : 90%;
+}
+
+#arrow_right_2:hover {
+  background-image : url("../resources/IMAGES/BUTTONS/ArrowRight1.png");
+}
+
+#popupChooseMap {
+  display          : none;
+  position         : fixed;
+  top              : 0;
+  left             : 0;
+  width            : 100%;
+  height           : 100%;
+  padding-top      : 110px;
+  background-color : rgba(0,0,0,0.8);
+  cursor           : pointer;
+}
+
+#popup_contentChooseMap {
+  width               : 700px;
+  height              : 400px;
+  margin              : auto;
+  padding-top         : 50px;
+  padding-left        : 60px;
+  border              : 3px solid #FFF;
+  background-color    : rgba(0,0,0,0.6);
+  background-repeat   : no-repeat;
+  background-position : center center;
+  cursor              : initial;
+}
+
+#texto {
+  position : absolute;
+  top      : 20%;
+  right    : 0%;
+  left     : 37%;
+  margin   : auto;
+  color    : white;
+}
+
+#mapa1Btn {
+  position            : relative;
+  top                 : 60px;
+  left                : 20px;
+  width               : 300px;
+  height              : 150px;
+  border-color        : transparent;
+  background-image    : url('../resources/IMAGES/LEVELS/level0.gif');
+  background-color    : Transparent;
+  background-repeat   : no-repeat;
+  background-position : center center;
+  background-size     : 100%;
+  transition          : background-image 1s;
+}
+
+#mapa1Btn:hover {
+  border-color : white;
+  cursor       : pointer;
+}
+
+#mapa2Btn {
+  position            : relative;
+  top                 : 60px;
+  left                : 30px;
+  width               : 300px;
+  height              : 150px;
+  border-color        : transparent;
+  background-image    : url('../resources/IMAGES/LEVELS/level1.gif');
+  background-color    : Transparent;
+  background-repeat   : no-repeat;
+  background-position : center center;
+  background-size     : 100%;
+  transition          : background-image 1s;
+}
+
+#mapa2Btn:hover {
+  border-color : white;
+  cursor       : pointer;
+}
+
+#mapa3Btn {
+  position            : relative;
+  top                 : 70px;
+  left                : 20px;
+  width               : 300px;
+  height              : 150px;
+  border-color        : transparent;
+  background-image    : url('../resources/IMAGES/LEVELS/level2.gif');
+  background-color    : Transparent;
+  background-repeat   : no-repeat;
+  background-position : center center;
+  background-size     : 100%;
+  transition          : background-image 1s;
+}
+
+#mapa3Btn:hover {
+  border-color : white;
+  cursor       : pointer;
+}
+
+#mapa4Btn {
+  position            : relative;
+  top                 : 70px;
+  left                : 30px;
+  width               : 300px;
+  height              : 150px;
+  border-color        : transparent;
+  background-image    : url('../resources/IMAGES/LEVELS/level3.gif');
+  background-color    : Transparent;
+  background-repeat   : no-repeat;
+  background-position : center center;
+  background-size     : 100%;
+  transition          : background-image 1s;
+}
+
+#mapa4Btn:hover {
+  border-color : white;
+  cursor       : pointer;
+}
+
+#player1 {
+  position : absolute;
+  top      : 550px;
+  right    : 520px;
+  width    : 400px;
+  height   : 400px;
+}
+
+#player2 {
+  position : absolute;
+  top      : 550px;
+  left     : 550px;
+  width    : 400px;
+  height   : 400px;
+}
+
+#labelPlayer1 {
+  position : absolute;
+  top      : 250px;
+  right    : 500px;
+  width    : 150px;
+  height   : 40px;
+}
+
+#labelPlayer2 {
+  position : absolute;
+  top      : 250px;
+  left     : 530px;
+  width    : 150px;
+  height   : 40px;
+}
+
+#fig1 {
+  cursor : pointer;
+}
+
+#fig2 {
+  cursor : pointer;
+}
+
+#fig3 {
+  cursor : pointer;
+}
+
+#fig4 {
+  cursor : pointer;
+}
+
+#fig5 {
+  cursor : pointer;
+}
+
+#fig6 {
+  cursor : pointer;
+}
+
+#fig7 {
+  cursor : pointer;
+}
+
+#fig8 {
+  cursor : pointer;
+}
+
+#popupSeeInstructions {
+  display             : none;
+  position            : fixed;
+  padding-top         : 110px;
+  top                 : 0;
+  left                : 0;
+  width               : 100%;
+  height              : 100%;
+  background-color    : rgba(0,0,0,0.8);
+  cursor              : pointer;
+}
+
+#popup_contentSeeInstructions {
+
+  background-position   : center center;
+  background-repeat     : no-repeat;
+  margin                : auto;
+  padding-top           :  50px;
+  padding-left          :  60px;
+  border                : 3px solid #FFF;
+  background-color      : rgba(255,207,112, 0.9);
+  width                 : 700px;
+  height                : 400px;
+  cursor                : initial;
+}
+
+#Start {
+  position            : absolute;
+  width               : 150px;
+  height              : 75px;
+  left                : 800px;
+  top                 : 480px;
+  background-color    : transparent;
+  background-image    : url("../resources/IMAGES/BUTTONS/StartBtn.png");
+  border              : 0;
+  background-size     : 100%;
+  background-position : center center;
+  background-repeat   : no-repeat;
+}
+
+#Start:hover {
+  cursor              : pointer;
+  background-image    : url("../resources/IMAGES/BUTTONS/StartBtn1.png");
+}
+
+#Start:focus {
+  outline             : 0px;
+}
+
+#Instructions {
+  position    : absolute;
+  width       : 600px;
+  height      : 300px;
+  top         : 500px;
+}
+
+#easterEggPhoto {
+  display  : none;
+  position : absolute;
+  top      : 460px;
+  left     : 40px;
+  width    : 120px;
+  height   : 115px;
+}
+
